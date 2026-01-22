@@ -1,15 +1,12 @@
 import sys
 import os
 
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
-from app.chat_logic import detect_intent, init_memory, handle_booking, get_faq_response, handle_reschedule, handle_cancel
 import streamlit as st
-from app.rag_pipeline import extract_text_from_pdfs, create_vectorstore
-from app.tools import rag_tool, booking_persistence_tool, email_tool
-from app.admin_dashboard import render_admin
+from chat_logic import detect_intent, init_memory, handle_booking, get_faq_response, handle_reschedule, handle_cancel
+from rag_pipeline import extract_text_from_pdfs, create_vectorstore
+from tools import rag_tool, booking_persistence_tool, email_tool
+from admin_dashboard import render_admin
 from db.database import init_db
-from streamlit.components.v1 import html
 
 init_db()
 
