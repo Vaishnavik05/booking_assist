@@ -1,9 +1,6 @@
 streamlit
-langchain
-faiss-cpu
 pypdf
-sentence-transformers
-openai
-sqlite-utils
-python-dotenv
 pandas
+python-dotenv
+google-generativeai
+sqlite-utils
