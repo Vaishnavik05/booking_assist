@@ -1,7 +1,3 @@
-Here is your **properly formatted README.md** — you can **directly copy-paste this into GitHub**:
-
----
-
 # 🦷 Fixdent AI – Dental Appointment Assistant
 
 Fixdent AI is a smart dental appointment assistant built using **Streamlit**, **Google Gemini**, and **Mailtrap**. It enables users to **book, reschedule, and cancel appointments** through a conversational chatbot and provides instant answers to dental FAQs using **RAG (Retrieval-Augmented Generation)** from uploaded PDFs.
