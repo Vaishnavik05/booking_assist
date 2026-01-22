@@ -1,7 +1,7 @@
 import smtplib
 from email.mime.text import MIMEText
 import google.generativeai as genai
-from app.rag_pipeline import rag_query
+from rag_pipeline import rag_query
 from db.database import insert_customer, insert_booking
 from app.config import EMAIL_ADDRESS, EMAIL_PASSWORD, GEMINI_API_KEY
 import streamlit as st

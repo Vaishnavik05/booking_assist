@@ -1,8 +1,8 @@
 import re
 from datetime import datetime
-from app.booking_flow import get_next_field, is_valid_date, is_valid_time, validate_and_store, is_complete, summarize, QUESTIONS
+from booking_flow import get_next_field, is_valid_date, is_valid_time, validate_and_store, is_complete, summarize, QUESTIONS
 from db.database import delete_booking_by_email, update_booking_time
-from app.tools import email_tool
+from tools import email_tool
 
 def detect_intent(message):
     msg = message.lower().strip()
