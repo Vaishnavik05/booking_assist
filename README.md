@@ -4,7 +4,7 @@ Fixdent AI is a smart dental appointment assistant built using **Streamlit**, **
 
 ---
 
-## 🚀 Features
+## Features
 
 * **Conversational Chatbot** – Book, reschedule, or cancel appointments via chat
 * **PDF-based RAG** – Upload multiple PDFs; bot answers questions from their content
@@ -16,7 +16,7 @@ Fixdent AI is a smart dental appointment assistant built using **Streamlit**, **
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Component          | Technology                          |
 | ------------------ | ----------------------------------- |
@@ -30,7 +30,7 @@ Fixdent AI is a smart dental appointment assistant built using **Streamlit**, **
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 chatbot_neostats/
