@@ -1,5 +1,6 @@
 import sys
 import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import streamlit as st
 from streamlit.components.v1 import html
 from chat_logic import detect_intent, init_memory, handle_booking, get_faq_response, handle_reschedule, handle_cancel
