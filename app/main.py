@@ -1,7 +1,7 @@
 import sys
 import os
-
 import streamlit as st
+from streamlit.components.v1 import html
 from chat_logic import detect_intent, init_memory, handle_booking, get_faq_response, handle_reschedule, handle_cancel
 from rag_pipeline import extract_text_from_pdfs, create_vectorstore
 from tools import rag_tool, booking_persistence_tool, email_tool

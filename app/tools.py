@@ -3,7 +3,7 @@ from email.mime.text import MIMEText
 import google.generativeai as genai
 from rag_pipeline import rag_query
 from db.database import insert_customer, insert_booking
-from app.config import EMAIL_ADDRESS, EMAIL_PASSWORD, GEMINI_API_KEY
+from config import EMAIL_ADDRESS, EMAIL_PASSWORD, GEMINI_API_KEY
 import streamlit as st
 genai.configure(api_key=GEMINI_API_KEY)
 
